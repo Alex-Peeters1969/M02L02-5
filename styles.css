@@ -1,0 +1,51 @@
+
+
+a:nth-child(1):hover {
+  color:lightsteelblue;
+  font-weight: bold;
+}
+
+a:nth-child(2):active {
+ color:red;
+ font-style: italic;
+}
+
+a:nth-child(3):focus {
+  color:yellow;
+}
+.input:focus {
+  color:green;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+}
+
+nav {  
+   background-color: darkblue;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+  
+.currentPage:active {
+  background-color: rgb(128, 128, 128);
+}
+
+.hover:hover {
+  background-color: lightblue;
+}
+input:focus {
+  border-color:1.5px solid aquamarine;
+}
+        
